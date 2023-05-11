@@ -5,17 +5,18 @@
     <!-- <img id="" src="./assets/images/三级操作手册.jpg" alt="" srcset="" /> -->
     <!-- <img width="1000px" /> -->
     <!-- <button @click="download">下载</button> -->
+    <router-view />
   </div>
 </template>
 
 <script>
-import { isES6, arr } from "@/App"
+// import { isES6, arr } from "@/App"
 import { __picWM } from "@/utils/tool"
 
 export default {
   data() {
     return {
-      arr,
+      // arr,
     }
   },
   methods: {
@@ -27,7 +28,7 @@ export default {
     },
   },
   created() {
-    isES6()
+    // isES6()
     // 调用
     __picWM({
       url: require("/src/assets/images/girl.jpg"),

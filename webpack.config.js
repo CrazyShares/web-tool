@@ -10,7 +10,7 @@ const isDevMode = NODE_ENV === 'development' ? true : false
 module.exports = {
     mode: isDevMode ? 'development' : 'production',
     entry: {
-        'main': path.resolve(__dirname, './src/index.js')
+        'main': path.resolve(__dirname, './src/main.js')
     },
     output: {
         path: path.resolve(__dirname, 'dist'),

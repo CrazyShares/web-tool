@@ -1,5 +1,5 @@
 /**
- * 
+ * 图片加水印
  * @param {String} url 图片的地址
  * @param {String} textAlign 文本居中方式
  * @param {String} textBaseline 文本基准线方式
